@@ -1,5 +1,5 @@
-import Painting from "./Painting";
 import PropTypes from "prop-types";
+import Painting from "./Painting"
 
 export default function PaintingList({ items }) {
   return (<ul>
@@ -15,7 +15,6 @@ export default function PaintingList({ items }) {
         />
       </li>
     ))}
-    <Painting />
   </ul>)
 }
 
